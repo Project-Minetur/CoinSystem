@@ -1,0 +1,28 @@
+name: CoinSystem
+version: 2.0
+description: Minetur CoinSystem
+load: POSTWORLD
+authors: [MC_Malte, SicutRaizaiir]
+website: minetur.de
+main: de.mcmalte.coinsystem.Main
+database: true
+depend: MineturAPI
+loadbefore: MineturAPI
+
+
+ commands:
+   coins:
+     permission: minetur.coins.user
+    helpcoins:
+         permission: minetur.coins.admin
+    addcoins:
+         permission: minetur.coins.admin
+    removecoins:
+         permission: minetur.coins.admin
+    setcoins:
+         permission: minetur.coins.admin
+    reloadcoins:
+         description: ONLY AVAILABLE IN DEBUG MODE
+         permission: minetur.coins.admin
+    resetcoins:
+         permission: minetur.coins.admin
