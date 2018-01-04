@@ -1,5 +1,0 @@
-
-Updates für die Zukunft:
-
-1. Die Coins nicht im Datentyp Long sondern im Datentyp Double speichern. (Braucht man das?)
-2. Command /pay <Spieler> <Coins>
